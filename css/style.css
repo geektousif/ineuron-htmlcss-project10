@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+body {
+  background: url("../images/retro-living-room-interior-design-1-2048x1365.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #fff;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-item-call {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.call-img {
+  margin-right: 5px;
+}
+
+.nav-item-call p {
+  padding: 2px;
+}
+
+.call-img img {
+  height: 30px;
+}
+
+.main {
+  padding: 0 50px;
+  display: flex;
+  height: 100%;
+}
+
+.main .left {
+  float: left;
+  margin-top: 8%;
+  width: 100%;
+}
+
+.left h1 {
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+.left button {
+  font-size: 20px;
+  padding: 20px 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.card {
+  width: 275px;
+  background-color: #ffffff1f;
+  position: absolute;
+  padding: 25px 30px;
+}
+
+.card-img {
+  width: 100px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.card-img img {
+  height: 30px;
+}
+
+.card-text {
+  padding-top: 10px;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.card1 {
+  right: 0;
+  top: 60px;
+}
+
+.card2 {
+  top: 300px;
+}
+
+.line {
+  height: 62px;
+  width: 1px;
+  background-color: #fff;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  left: -9px;
+}
+
+.line-with-dot-1 {
+  position: absolute;
+  right: 10%;
+  top: 208px;
+}
+
+.line-with-dot-2 {
+  transform: rotate(270.8deg);
+}
