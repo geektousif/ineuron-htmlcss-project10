@@ -11,7 +11,7 @@
 
 body {
   background: url("../images/retro-living-room-interior-design-1-2048x1365.jpg");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
   height: 100%;
@@ -119,6 +119,7 @@ nav {
 
 .card2 {
   top: 300px;
+  position: relative;
 }
 
 .line {
@@ -141,6 +142,34 @@ nav {
   top: 208px;
 }
 
+.card-2nd {
+  display: flex;
+}
+
 .line-with-dot-2 {
-  transform: rotate(270.8deg);
+  position: absolute;
+  top: 380px;
+  left: 306px;
+  transform: rotate(270deg);
+}
+
+#mobMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-items {
+    display: none;
+  }
+  #mobMenu {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .main {
+    padding: 0 10px;
+    flex-direction: column;
+    height: auto;
+  }
 }
